@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="js/app.js" ></script>    
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__texto">Mercado de la Economía Popular de Alberdi</h1>
+    </header>
+    <nav class="nav-principal">
+        <ul class="ul-principal">
+            <li class="ul-principal__inicio-sesion">INICIAR SESIÓN</li>
+            <li class="ul-principal__carrito"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg></li>
+        </ul>
+        <ul class="ul-secundario">
+            <li><a href="#productos">PRODUCTOS</li></a>
+            <li><a href="#nosotros">NOSOTROS</a></li>
+            <li><a href="#contacto">CONTACTO</li></a>
+        </ul>
+    </nav>
+    <section class="productos" id="productos">
+        <div class="div__productos__texto"><h2 class="productos__texto">PRODUCTOS</h2></div>
+
+        <div class="productos__contenedor"><h2 class="productos__h2">Nuestros PANES</h2></div>
+        <div class="carrousel">
+            <div class="grande">
+                <img src="../Nueva pagina mepa/fotos/pan2.jpg" alt="Imagen 1">
+                <img src="../Nueva pagina mepa/fotos/pan-leche-t.jpg.webp" alt="Imagen 2">
+                <img src="../Nueva pagina mepa/fotos/63_receta.jpg" alt="Imagen 3">
+            </div>
+        
+            <div class="carrousel__ul">
+                <ul class="puntos">
+                    <li class="punto activo"></li>
+                    <li class="punto"></li>
+                    <li class="punto"></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="productos__contenedor"><h2 class="productos__h2">Nuestra CAFETERIA</h2></div>
+        <div class="carrousel">
+            <div class="grandea">
+                <img src="../Nueva pagina mepa/fotos/capuchino_16242_orig.jpg" alt="Imagen 1">
+                <img src="../Nueva pagina mepa/fotos/46349.jpg" alt="Imagen 2">
+                <img src="../Nueva pagina mepa/fotos/cafe-1599479980.jpg" alt="Imagen 3">
+            </div>
+        
+            <div class="carrousel__ul">
+                <ul class="puntos">
+                    <li class="puntoa activo"></li>
+                    <li class="puntoa"></li>
+                    <li class="puntoa"></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="productos__contenedor"><h2 class="productos__h2">Nuestros SANDWICHS</h2></div>
+        <div class="carrousel">
+            <div class="grandeb">
+                <img src="../Nueva pagina mepa/fotos/ZxZXZXZXZX.webp" alt="Imagen 1">
+                <img src="../Nueva pagina mepa/fotos/montecristo-sandwich-receta.jpg" alt="Imagen 2">
+                <img src="../Nueva pagina mepa/fotos/coficosandwich.jpeg" alt="Imagen 3">
+            </div>
+        
+            <div class="carrousel__ul">
+                <ul class="puntos">
+                    <li class="puntob activo"></li>
+                    <li class="puntob"></li>
+                    <li class="puntob"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <section class="nosotros" id="nosotros">
+        <div class="contenedor__nosotros__texto"><h2 class="nosotros__texto">Conocé a nuestro equipo de especialistas</h2></div>
+        <div class="contenedor-nosotros">
+            <div class="contenedor-imagenes">
+                <img src="../Nueva pagina mepa/fotos/persona 1.jpeg" alt="">
+                <h3>Marcelo Juarez </h3>
+            </div>
+
+            <div class="contenedor-imagenes">
+             <img src="../Nueva pagina mepa/fotos/persona 2.jpeg" alt="">
+             <h3>Álvaro Gutierrez</h3>
+         </div>
+        
+         <div class="contenedor-imagenes">
+             <img src="../Nueva pagina mepa/fotos/persona 3.jpeg" alt="">
+              <h3>Juan Del Campillo</h3>
+          </div>
+        </div>
+
+    </section>
+    <section class="contacto" id="contacto">
+        <h2 class="texto-contacto">¡ SUSCRÍBETE A NUESTRO <br><div class="texto-contacto__boletin-semanal">BOLETÍN SEMANAL</div> !</h2>
+        <form class="form-contacto">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="tel" name="tel" id="tel" placeholder="Teléfono">
+        <input type="button" id="form__enviar" value="ENVIAR">
+        </form>
+        <div class="redes-sociales">
+        <div id="instagram"><a href="www.instagram.com"><img src="./fotos/instaaa.png" alt=""></a>  </div>
+        <div id="facebook"><a href="www.facebook.com"> <img src="./fotos/face.png" alt=""> </a> </div>
+        <div id="mail"><a href="www.gmail.com"> <img src="./fotos/mailll.png" alt=""> </a> </div>
+        </div>
+    </section>
+    <footer class="footer">/ Desarrollado por Martín Asís Muñoz /</footer>
+
+</body>
+</html>
