@@ -1,4 +1,4 @@
-# Página MEPA versión móvil
+# MEPA versión móvil
 Página web versión móvil para Mercado de la Economía Popular de Alberdi
 
 ## Descripción
